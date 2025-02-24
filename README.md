@@ -2,7 +2,8 @@
 
 This project demonstrates a real-time interactive application where users can build and simulate a grid-based environment, observing the actions of pre-trained reinforcement learning agents (a runner and a catcher).  The application features a modern React/Next.js frontend communicating with a Python backend via Socket.IO for real-time updates.
 
-[Grid Simulation](/public/agentsim.png)
+
+[![Grid Simulation](/public/agentsim.png)](agent-sim)
 
 ## Table of Contents
 
