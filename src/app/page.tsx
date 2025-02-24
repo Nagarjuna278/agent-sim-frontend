@@ -27,7 +27,6 @@ export default function Home() {
       transports: ['websocket']
     });
     setSocket(newSocket);
-    console.log('newSocket', socket);
 
     // Listen for grid updates from the simulation
     newSocket.on('grid_update', (data) => {
